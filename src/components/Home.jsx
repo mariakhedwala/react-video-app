@@ -40,7 +40,13 @@ const Home = () => {
           alignItems={"center"}
           direction={["column", "row"]}
         >
-          <Image src={img5} h={["40", "400"]} filter={"hue-rotate(-130deg)"} />
+          <Image
+            src={img5}
+            h={"full"}
+            w={"full"}
+            objectFit={"cover"}
+            filter={"hue-rotate(-130deg)"}
+          />
 
           <Text
             letterSpacing={"widest"}
